@@ -24,21 +24,15 @@
     Pois essa configuração carrega o arquivo data.sql, se inicializar novamente sem comentar vai gerar erro, pois vai ler novamente o arquivo data.sql.
 
 3. -Logins cadastrados para teste:<br/>
-    ADMIN - Login: admin@gft.com<br/>
+    ADMIN - Login: admin@gmal.com<br/>
             Senha: 123456<br/>
-    USER - Login: user@gft.com<br/>
+    USER - Login: user@mail.com<br/>
            Senha: 123456<br/>
 
 4. -Copiar token gerado ao realizar login no postman para verificar os endpoints cadastrados.
 
 ## Permissões de perfis (endpoints)
 
-    ADMIN - CRUD User, Historic e Top Trending<br/>
-    USER - Insert / New Tag, Find News e Historic<br/>
-    ADICIONAL ADMIN - CRUD Tag para manutenção (se for preciso) <br/>
-  
-### Exceeds
-
-- [x] JWT e/ou Refresh Token (JWT)
-- [x] Swagger ou Projeto no Postman ou OpenAPI (Postman)
-- [x] Envio de e-mail para usuário cadastrado no sistema no ato do cadastro
+    ADMIN - CRUD User, Historic e Top Trending
+    USER - Insert / New Tag, Find News e Historic
+    ADICIONAL ADMIN - CRUD Tag para manutenção (se for preciso)
